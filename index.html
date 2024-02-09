@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Proposal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="proposal-image" src="" alt="">
+    <audio autoplay loop src="/566c-2a2c-44e2-bdc7-1ea3a20dd9e9.mp3"></audio>
+    <div id="content">
+        <div id="photo-space"><img src="./30c8126b-d2b2-4f93-a72f-bb4d66dbc8b5.jfif" alt="Special moment" id="question-image"></div>
+        <p id="question">What's your feelings about the last 6 months?</p>
+        <input type="text" id="answer">
+        <button onclick="nextQuestion()">Submit</button>
+    </div>
+    <div id="proposal" style="display: none;">
+        <div id="proposal-photo-space"><img src="./a86e953e84633db5052702f6827a6486.jpg" alt="Proposal moment" id="proposal-image"></div>
+        <p id="proposalText">Hi my one and only, I'm Mesho, will you be my Valentine?</p>
+        <button id="yesBtn" onclick="acceptProposal()">Yes</button>
+        <button id="noBtn" onclick="declineProposal()">No</button>
+    </div>
+    <div id="celebration" style="display: none;">
+        <img src="./Hello Kitty Valentines Wallpaper - iXpap.jfif" alt="Celebration" id="celebration-image">
+        <p id="celebrationText"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
